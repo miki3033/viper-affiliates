@@ -1,0 +1,27 @@
+---
+import "../styles/global.css";
+const { title = "Viper Affiliates" } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+ <link rel="icon" type="image/png" href="/faviconva.png">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{title}</title>
+
+  <meta
+    name="description"
+    content="Strategic affiliate marketing and business development services."
+  />
+
+</head>
+
+<body>
+  <slot />
+</body>
+</html>
